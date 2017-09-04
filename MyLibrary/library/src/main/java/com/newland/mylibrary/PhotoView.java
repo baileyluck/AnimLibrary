@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.newland.mylibrary.utils.photoview;
+package com.newland.mylibrary;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -24,6 +24,9 @@ import android.net.Uri;
 import android.util.AttributeSet;
 import android.view.GestureDetector;
 import android.widget.ImageView;
+
+import com.newland.mylibrary.utils.photoview.IPhotoView;
+import com.newland.mylibrary.utils.photoview.PhotoViewAttacher;
 
 
 public class PhotoView extends ImageView implements IPhotoView {
